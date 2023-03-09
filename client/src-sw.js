@@ -1,3 +1,4 @@
+// Imported from Classwork
 const { offlineFallback, warmStrategyCache } = require('workbox-recipes');
 const { CacheFirst, StaleWhileRevalidate } = require('workbox-strategies');
 const { registerRoute } = require('workbox-routing');
